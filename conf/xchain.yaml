@@ -29,8 +29,6 @@ p2p:
   port: 47101
   #certPath: ./data/tls/1
   #serviceName: saas_test.server.com
-  bootNodes:
-    - "/ip4/192.168.40.136/tcp/47101/p2p/Qmc7dtH47MLk3jSZsGTEYByAWaPKTKBKofeeq68YUbejQ4"
   #bootNodes:
   #  - "/ip4/<ip>/tcp/<port>/p2p/<node_hash>" for p2pv2 or - "<ip>:<port>" for p2pv1
   #staticNodes:
@@ -62,11 +60,12 @@ kernel:
   # minNewChainAmount 设置创建平行链时最少要转多少钱到同链名address
   minNewChainAmount: "100"
   newChainWhiteList:
-    - TQNP22y4rakGyvo4omReS2okM9RY2bDTp: true
+    - dpzuVdosQrF2kmzumhVeFQZa1aYcdgFpN: true
     - ddk3yDs7in1ChmgZwjc6znpw59NR7ZZ49: true
     - hYERW5pVQZAaMHkrw42AjtSmycLDgYeLy: true
     - ghHYrpDpedrWwBjZQ954Zz9fu7JNDUQQy: true
     - XJPtm7Szq6YE8KHskhioCMFP4ydmL4aiN: true
+    - kqiXD8PU9B7vZwk2KDFxMsbvE5AcEVYJE: true
 
 # 合约通用配置
 contract:
